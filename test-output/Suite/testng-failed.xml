@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="fita.utilites.CustomListeners"/>
+  </listeners>
+  <test thread-count="5" parallel="classes" name="Add Fashion product(failed)">
+    <classes>
+      <class name="fita.tests.Test003">
+        <methods>
+          <include name="loginApp"/>
+          <include name="checkIfProductAdded"/>
+          <include name="openURL"/>
+          <include name="addProductIphone"/>
+          <include name="end"/>
+          <include name="openUrl"/>
+          <include name="loadURL"/>
+          <include name="closeConnection"/>
+        </methods>
+      </class> <!-- fita.tests.Test003 -->
+      <class name="fita.tests.Test001">
+        <methods>
+          <include name="openURL"/>
+          <include name="loginApp"/>
+          <include name="openUrl"/>
+          <include name="end"/>
+          <include name="closeConnection"/>
+          <include name="loadURL"/>
+          <include name="checkIfProductAdded"/>
+          <include name="addProduct"/>
+        </methods>
+      </class> <!-- fita.tests.Test001 -->
+    </classes>
+  </test> <!-- Add Fashion product(failed) -->
+</suite> <!-- Failed suite [Suite] -->

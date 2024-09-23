@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [fita-selenium]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="cucumber test(failed)">
+    <classes>
+      <class name="fita.tests.Runner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0 1 2"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- fita.tests.Runner -->
+    </classes>
+  </test> <!-- cucumber test(failed) -->
+</suite> <!-- Failed suite [fita-selenium] -->

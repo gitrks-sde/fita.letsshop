@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 1.339 sec <<< FAILURE!
+loginApp(fita.tests.Test001)  Time elapsed: 0.041 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at fita.pageobjects.LoginPage.enterUseremail(LoginPage.java:37)
+	at fita.pageobjects.LoginPage.performLogin(LoginPage.java:52)
+	at fita.tests.Test001.loginApp(Test001.java:35)
+
+loginApp(fita.tests.Test003)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at fita.pageobjects.LoginPage.enterUseremail(LoginPage.java:37)
+	at fita.tests.Test003.loginApp(Test003.java:27)
+
