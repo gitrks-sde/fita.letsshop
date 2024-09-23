@@ -28,14 +28,6 @@ public class Test002 {
 			System.out.println(3*i);
 		}
 	}
-	@Test(groups= {"smoke"})
-	public void method4()
-	{
-		for(int i=1;i<=5;i++)
-		{
-			System.out.println(4*i);
-		}
-	}
 	@Test
 	public void method5()
 	{
