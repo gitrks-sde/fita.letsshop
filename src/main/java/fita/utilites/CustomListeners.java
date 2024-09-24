@@ -23,11 +23,11 @@ public class CustomListeners extends StepDefinition implements ITestListener {
 
 	public void onTestFailure(ITestResult result) {
 		System.out.println(result.getName() + " " + result.getStatus());
-//		try {
-//			capturScreenShot();
-//		} catch (IOException e) {
-//			e.printStackTrace();
-//		}
+		try {
+			capturScreenShot();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 		test.log(Status.FAIL, result.getThrowable());
 		test.addScreenCaptureFromPath("C:\\Users\\karth\\eclipse-workspace\\fita.letsshop\\testScreenshots\\testss.png");
 
