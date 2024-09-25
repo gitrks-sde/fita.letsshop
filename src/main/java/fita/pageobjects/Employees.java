@@ -7,14 +7,16 @@ public class Employees {
 	private char gender;
 	private int age;
 	private float salary;
+	private String designation;
 	
-	public Employees(String name, String id, char gender, int age,float salary) {
+	public Employees(String name, String id, char gender, int age,float salary,String designation) {
 		super();
 		this.name = name;
 		this.id = id;
 		this.gender = gender;
 		this.age = age;
 		this.salary=salary;
+		this.designation=designation;
 	}
 	
 
