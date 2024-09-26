@@ -10,7 +10,7 @@ import com.aventstack.extentreports.Status;
 
 import stepDefinitions.StepDefinition;
 
-public class CustomListeners extends StepDefinition implements ITestListener {
+public class CustomListeners extends BaseClass implements ITestListener {
 
 	public void onTestStart(ITestResult result) {
 		test = extent.createTest(result.getName());

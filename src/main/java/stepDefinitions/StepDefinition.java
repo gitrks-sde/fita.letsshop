@@ -1,15 +1,9 @@
 package stepDefinitions;
 
-import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
 
-import org.apache.commons.io.FileUtils;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
-import org.openqa.selenium.By;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -17,7 +11,6 @@ import fita.pageobjects.CartPage;
 import fita.pageobjects.HomePage;
 import fita.pageobjects.LoginPage;
 import fita.utilites.BaseClass;
-import fita.utilites.Utilities;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.BeforeStep;
